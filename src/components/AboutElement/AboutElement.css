@@ -1,0 +1,25 @@
+.AboutElement {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+}
+
+.AboutImg {
+    padding: 50px;
+}
+
+.AboutEle{
+    padding: 40px;
+}
+.AboutEle h1 {
+    color: rgb(21, 21, 75);
+}
+
+@media (min-width: 500px) {
+    .AboutElement {
+        flex-flow: row;
+    }
+}

@@ -1,0 +1,17 @@
+.LoginData {
+    margin: 100px auto;
+    width: 80%;
+    text-align: center;
+    box-shadow: 0 2px 3px rgb(21, 21, 75);
+    border: 1px solid rgb(21, 21, 75);
+    padding: 10px;
+    box-sizing: border-box;
+    background-color: black;
+}
+
+@media (min-width: 600px) {
+    .LoginData {
+        width: 500px;
+    }
+}
+ 
